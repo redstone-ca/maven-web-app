@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-test
+  name: nginx
 spec:
   containers:
-    - name: my-test
-      image: redstonedocker/testmvnsite:latest
-      imagePullPolicy: Always
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
