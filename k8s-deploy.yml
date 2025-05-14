@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: redstone-ca/mavenwebapp
+      image: redstonedocker/testmvnsite
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
