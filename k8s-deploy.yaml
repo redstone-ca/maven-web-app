@@ -1,9 +1,10 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
   name: my-test
 spec:
   containers:
-  - name: my-test
-    image: redstonedocker/testmvnsite:latest
-    imagePullPolicy: Always
+    - name: my-test
+      image: redstonedocker/testmvnsite:latest
+      imagePullPolicy: Always
